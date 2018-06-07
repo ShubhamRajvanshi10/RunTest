@@ -1,0 +1,21 @@
+#ServerIP|ControllerName|Project|SubProject|ScenarionName|EnableND (0-No 1-YES)|ConnectToNDC|TestRunCount|ResetIIS(1-Yes, 0-NO)|ResetNDC(1-Yes, 0-NO)
+#10.10.30.53|work|NDE|CM|TRADE_PERF.conf|0|6|5|1
+10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithoutND.conf|0|6|1|1|1
+10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithoutHS_Sys_App.conf|1|5|1|1|1
+10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithHS_Sys_App_500.conf|1|6|1|1|1
+10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithHS_Sys_App_100.conf|1|6|1|1|1
+10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithHS_Sys_App_AutoIns.conf|1|6|1|1|1
+#10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithHS_Sys.conf|1|6|1|1|1
+#10.10.30.61|DotNet|DotNetFunc|FlowathPercent|Trader_FPPercent0_10U_100S.conf|1|6|1|0
+#10.10.30.61|DotNet|DotNetFunc|FlowathPercent|Trader_FPPercent50_10U_100S.conf|1|6|1|0
+#10.10.30.61|DotNet|DotNetFunc|FlowathPercent|Trader_FPPercent100_10U_100S.conf|1|6|1|0
+#10.10.30.61|DotNet|DotNetFunc|FlowathPercent|Trader_BTGlobal_10U_100S.conf|1|6|1|0
+#10.10.30.61|DotNet|DotNetFunc|FlowathPercent|Trader_BTPattern_10U_100S.conf|1|6|1|0
+#10.10.30.61|DotNet|DotNetFunc|FlowathPercent|Trader_CorrelationID_10U_100S.conf|1|6|1|0
+#10.10.30.61|DotNet|DotNetFunc|FlowathPercent|Trader_MethodMonitor_10U_100S.conf|1|6|1|0
+#10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithoutHS_Sys_App.conf|1|5|1|1
+#10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithHS_Sys_App.conf|1|6|1|1
+#10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithHS_Sys.conf|1|6|1|1
+#10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithHS_Sys_App_BCI10.conf|1|6|1|1
+#10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_WithHS_Sys_App_BCI50.conf|1|6|1|1
+#10.10.30.61|DotNet|DOTNET|Performance|StockTraderPerf_CM.conf|1|6|1|0
